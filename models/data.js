@@ -27,11 +27,8 @@ const productSchema = mongoose.Schema(
               "fuelType": {
                 "type": "string",
                 "description": "The type of fuel the car uses"
-              },
-              "displacement": {
-                "type": "number",
-                "description": "The engine's displacement in liters"
               }
+              
             },
             "required": ["fuelType", "displacement"]
           }

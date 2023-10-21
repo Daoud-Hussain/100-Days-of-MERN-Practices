@@ -5,8 +5,7 @@
       "year": 2022,
       "color": "Silver",
       "engine": {
-        "fuelType": "Gasoline",
-        "displacement": 2.5
+        "fuelType": "Gasoline"
       }
     },
     {
@@ -15,8 +14,7 @@
       "year": 2021,
       "color": "Red",
       "engine": {
-        "fuelType": "Gasoline",
-        "displacement": 5.0
+        "fuelType": "Gasoline"
       }
     },
     {
@@ -25,8 +23,7 @@
       "year": 2020,
       "color": "Blue",
       "engine": {
-        "fuelType": "Gasoline",
-        "displacement": 1.8
+        "fuelType": "Gasoline"
       }
     },
     {
@@ -35,8 +32,7 @@
       "year": 2023,
       "color": "White",
       "engine": {
-        "fuelType": "Electric",
-        "displacement": 0
+        "fuelType": "Electric"
       }
     },
     {
@@ -45,8 +41,7 @@
       "year": 2019,
       "color": "Black",
       "engine": {
-        "fuelType": "Gasoline",
-        "displacement": 6.2
+        "fuelType": "Gasoline"
       }
     }
   ]
