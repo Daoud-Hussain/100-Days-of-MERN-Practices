@@ -1,0 +1,53 @@
+[
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "color": "Silver",
+      "engine": {
+        "fuelType": "Gasoline",
+        "displacement": 2.5
+      }
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2021,
+      "color": "Red",
+      "engine": {
+        "fuelType": "Gasoline",
+        "displacement": 5.0
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2020,
+      "color": "Blue",
+      "engine": {
+        "fuelType": "Gasoline",
+        "displacement": 1.8
+      }
+    },
+    {
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "color": "White",
+      "engine": {
+        "fuelType": "Electric",
+        "displacement": 0
+      }
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Silverado",
+      "year": 2019,
+      "color": "Black",
+      "engine": {
+        "fuelType": "Gasoline",
+        "displacement": 6.2
+      }
+    }
+  ]
+  

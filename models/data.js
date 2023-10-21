@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const productScheme = mongoose.Schema(
+const productSchema = mongoose.Schema(
     {
         "type": "object",
         "properties": {
@@ -40,4 +40,4 @@ const productScheme = mongoose.Schema(
       
 })
 
-module.exports = mongoose.model('Car', productScheme);
+module.exports = mongoose.model('Data', productSchema);
