@@ -1,5 +1,5 @@
 const connectDB = require("./db/connect");
-const car = require("./models/data");
+const car = require("./models/Product");
 const carJSON = require("./cars.json");
 
 const start = async () => {
