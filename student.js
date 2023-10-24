@@ -1,11 +1,11 @@
 const connectDB = require("./db/connect");
-const car = require("./models/Product");
-const carJSON = require("./cars.json");
+const student = require("./models/Student");
+const studentJSON = require("./students.json");
 
 const start = async () => {
   try {
     await connectDB();
-    await car.create(carJSON);
+    await student.create(studentJSON);
   } catch (error) {
     console.log(error);
   }
