@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const {getAllStudents, getTestStudents} = require("../Controllers/student");
 
-router.route('/').get(getAllStudents);
-router.route('/test').get(getTestStudents);
+router.get('/', getAllStudents);
+router.get('/test', getTestStudents);
 
 module.exports = router;

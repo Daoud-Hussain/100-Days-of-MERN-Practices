@@ -13,8 +13,7 @@ app.get("/", (req, res) => {
   res.send("I am live");
 });
 
-app.use("/", getAllStudents);
-app.use("/test", getTestStudents);
+app.use("/home", student);
 
 try {
   connect();
