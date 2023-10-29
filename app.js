@@ -17,6 +17,7 @@ app.use("/home", student);
 
 try {
   connect();
+  // students.deleteMany();
   // students.create(studentJSON);
   app.listen(port, () => {
     console.log(`Site is live on ${port}`);

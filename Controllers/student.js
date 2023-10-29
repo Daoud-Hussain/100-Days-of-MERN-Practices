@@ -2,8 +2,9 @@ const { mongo } = require("mongoose");
 const Student = require("../models/Student");
 
 const getAllStudents  = async (req, res)=>{
-    let data = await Student.find({});
+    let data = await Student.find({}).sort("name");
     res.send({data});
+    // await Student.deleteMany({});
 }
 
 const getTestStudents = async (req, res) =>{
