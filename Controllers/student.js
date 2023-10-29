@@ -2,7 +2,14 @@ const { mongo } = require("mongoose");
 const Student = require("../models/Student");
 
 const getAllStudents  = async (req, res)=>{
-    let data = await Student.find({}).sort("name");
+    //Displaying all the student records
+    // let data = await Student.find({});
+
+    //Displaying all the student records after sorting with names
+    // let data = await Student.find({}).sort("name");
+
+    //Displaying all the student records after sorting with name and selecting name and rollno to display
+    let data = await Student.find({}).sort("name").select("name rollno");
     res.send({data});
     // await Student.deleteMany({});
 }
